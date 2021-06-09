@@ -13,7 +13,7 @@ function imc(){
 
         resultado.textContent = valorIMC;
 
-        let classificacao = "";
+        let classificacao = " ";
         if (valorIMC < 18.5){
             classificacao = "Abaixo do Peso!";
         }else if(valorIMC < 25){
