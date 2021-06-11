@@ -7,9 +7,12 @@ function imc(){
     const altura = document.getElementById('altura').value;
     const peso = document.getElementById('peso').value;
     const resultado = document.getElementById('resultado');
+    
+    //const result = (peso - (peso * (peso * 0,30))).toFixed(2);
 
     if(nome !== "" && altura !== "" && peso !== ""){
         const valorIMC =(peso / (altura * altura)).toFixed(2);
+       
 
         resultado.textContent = valorIMC;
 
