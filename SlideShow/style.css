@@ -1,0 +1,66 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+#carrossel {    
+    color: #ffffffff;
+    padding-top: 20px;
+    height: 10vh;
+    background-color: lightslategray;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';    
+    text-align: center;
+}
+.container-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
+    background-color: black ;
+    margin: 20vh auto;
+    border-radius: 10px;
+    box-shadow: 2 20px 30px black ;
+}
+.container-items {
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.item {
+    width: 50vw;
+    height: 50vh;
+    transition: all 1s;
+}
+.item img {
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+.item:first-child {
+    margin-left: -100%;
+}
+.action-button {
+    font: bold 30px  sans-serif;
+    display: flex;
+    color: #00000000;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    user-select: none;
+    z-index: 1;
+}
+
+.action-button:hover {
+    color: white;
+    background-color: #00000055;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#rodape {
+    text-align: center;
+}
